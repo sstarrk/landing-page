@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -15,8 +16,9 @@ body {
 
 .header-logo {
     color: #F9FAF8;
-    font-size: 24px;
+    font-size: 21px;
     flex-grow: 1;
+    font-weight: bold;
 }
 
 ul {
@@ -40,7 +42,7 @@ li {
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
-    font-size: 18px;
+    font-size: 15px;
     color: #E5E7EB;
     height: 5%;
 }
@@ -50,10 +52,11 @@ li {
     padding: 0 12%;
     background-color: #1F2937;
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 15px;
     display: flex;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     align-items: center;
+    gap: 3%;
 }
 
 .second {
@@ -73,7 +76,7 @@ li {
 
 h1 {
     color: #F9FAF8;
-    font-size: 48px;
+    font-size: 44px;
     margin: 0px;
 }
 
@@ -87,4 +90,9 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
+}
+
+.buttons {
+    background-color: #3882F6;
 }
