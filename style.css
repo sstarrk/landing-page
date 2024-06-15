@@ -54,6 +54,7 @@ li {
     color: #E5E7EB;
     font-size: 15px;
     display: flex;
+    padding-top: 1%;
     padding-bottom: 3%;
     align-items: center;
     gap: 3%;
@@ -93,6 +94,12 @@ h1 {
     height: 100%;
 }
 
-.buttons {
+#topbut {
     background-color: #3882F6;
+    padding: 3px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 7px;
+    font-weight: bold;
 }
+
