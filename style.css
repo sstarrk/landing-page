@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 .header {
@@ -119,8 +120,15 @@ h1 {
 }
 
 .box {
-    border: 2px;
+    border: 2px solid;
     border-color: #3882F6;
     border-radius: 5px;
-    padding: 30px;
+    flex-grow: 1;
+}
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    gap: 4px;
 }
