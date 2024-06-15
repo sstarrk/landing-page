@@ -26,7 +26,7 @@ ul {
     padding-left: 0;
     display: flex;
     justify-content: flex-end;
-    gap: 10px;
+    gap: 15px;
 }
 
 li {
@@ -63,15 +63,17 @@ li {
 .second {
     flex: 1;
     padding: 0 12%;
+    text-align: center;
 }
 
 .third {
-    flex: 1;
+    flex: 0.8;
     padding: 0 12%;
+    background-color: #E5E7EB;
 }
 
 .fourth {
-    flex: 1;
+    flex: 0.7;
     padding: 0 12%;
 }
 
@@ -103,3 +105,22 @@ h1 {
     font-weight: bold;
 }
 
+#stext {
+    font-weight: bold;
+    font-size: 26px;
+    margin: 1%
+}
+
+.info {
+    display: flex;
+    height: 150px;
+    flex-shrink: 1;
+    gap: 4%;
+}
+
+.box {
+    border: 2px;
+    border-color: #3882F6;
+    border-radius: 5px;
+    padding: 30px;
+}
